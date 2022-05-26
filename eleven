@@ -1,0 +1,24 @@
+tir = str(input('нота: '))
+a = 261.63
+b = 293.66
+c = 329.63
+d = 349.23
+i = 392.00
+f = 440.00
+g = 493.88
+if tir == 'C4':
+   print(a)
+elif tir == 'D4':
+   print(b)
+elif tir == 'E4':
+   print(c)
+elif tir == 'F4':
+   print(d)
+elif tir == 'G4':
+   print(i)
+elif tir == 'A4':
+   print(f)
+elif tir == 'D4':
+   print(g)
+else:
+   print('не существует')
